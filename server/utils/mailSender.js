@@ -15,7 +15,7 @@ const mailSender = async (email, title, body) => {
       from: `"Studynotion | CodeHelp" <${process.env.MAIL_USER}>`, // sender address
       to: `${email}`, // list of receivers
       subject: `${title}`, // Subject line
-      html: `${body}`, // html body
+      html: `${body}`, // html body]\\
     })
     console.log(info.response)
     return info
